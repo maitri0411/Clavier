@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="orbit.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8;
+  color:#777;
+}
+
+.bgimg-1, .bgimg-2{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("image3.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("image1.jpg");
+  min-height: 100%;
+}
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+.navbar{min-height:80px; background-color: white;background: transparent;}
+.navbar ul{padding:0px;margin:0px;text-align:center;display:inline-block;vertical-align:top;}
+.navbar-brand{font-size:30px !important;color:black;font-family:PT sans Narrow;}
+@media(min-width: 766px){#menuOnCollapse ul{float: right; } }
+a.effect-underline:after {content: ''; position: absolute; left: 0; display: inline-block; height: 1em; width: 100%; border-bottom: 2px solid; margin-top: 10px; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: scale(0,1); transform: scale(0,1); }
+a.effect-underline:hover:after {opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
+</style>
+<body>
+  <div>
+    <nav class="navbar navbar-default navbar-fixed-top" id="topNavbar" style="background-color: white;">
+
+              <div class="container-fluid">
+
+                  <div class="navbar-header" style="height: 80px;background-color: white;">
+
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-right: 20px;">
+
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+
+                  </button>
+                  <a class="navbar-brand" href="index.html"><img src="" width="70px" height="70px" style="margin-top: -10px;"></a>
+                  <a class="navbar-brand brandName" href="index.html" style="color: black; margin-left: -22.5px;margin-top:12.5px;">Clavier Labs<br/>
+                  <small id="tagLine" style="font-size:13px;margin-left: 3px;">abcdefghijklmnop</small></a>
+                  </div>
+
+                  <div id="menuOnCollapse">
+                      <div class="collapse navbar-collapse" id="myNavbar" align="center" >
+                        <ul class="nav navbar-nav float-right" style=" margin-top: 30px;">
+                            <li><a href="aboutUs.html" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline" id="aboutUs"></style>Company</a></li>
+                            <li><a href="index.html#product" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>Services</a></li>
+                            <li><a href="index.html#app" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline">Tecnologies</a></li>
+                            <li><a href="contactUs.html" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline">Hire Resources</a></li>
+                            <li><a href="" data-toggle="modal" data-target="#myModal" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>Our Work</a></li>
+
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+    </nav>
+  </div>
+    <div class="bgimg-1">
+</div>
+<div class="container-fluid" style="height:100vh;">
+  <center><h2 style="margin-top:80px;">Services We Provide</h2></center>
+</div>
+<div class="bgimg-2">
+</div>
+<div class="container-fluid" style="height:100vh;">
+  <center><h2 style="margin-top:80px;">Technologies</h2></center>
+</div>
+</body>
+</html>
