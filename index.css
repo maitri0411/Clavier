@@ -1,0 +1,101 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8;
+  color:#777;
+}
+
+.bgimg-1, .bgimg-2{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("image3.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("image1.jpg");
+  min-height: 100%;
+}
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+.navbar{min-height:80px; background-color: white;background: transparent;}
+.navbar ul{padding:0px;margin:0px;text-align:center;display:inline-block;vertical-align:top;}
+.navbar-brand{font-size:30px !important;color:black;font-family:PT sans Narrow;}
+@media(min-width: 766px){#menuOnCollapse ul{float: right; } }
+a.effect-underline:after {content: ''; position: absolute; left: 0; display: inline-block; height: 1em; width: 100%; border-bottom: 2px solid; margin-top: 10px; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: scale(0,1); transform: scale(0,1); }
+a.effect-underline:hover:after {opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
+.mb-60 {
+    margin-bottom: 60px;
+}
+.services-inner {
+    border: 2px solid black;
+    margin-left: 35px;
+    transition: .3s;
+}
+.our-services-img {
+    float: left;
+    margin-left: -36px;
+    margin-right: 22px;
+    margin-top: 28px;
+}
+.our-services-text {
+    padding-right: 10px;
+}
+.our-services-text {
+    overflow: hidden;
+    padding: 28px 0 25px;
+}
+.our-services-text h4 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.our-services-text h4::before {
+    background: #ec6d48 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 35px;
+}
+.our-services-wrapper:hover .services-inner {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    
+}
+.our-services-text p {
+    margin-bottom: 0;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #666;
+    margin-bottom: 15px;
+}
+#footer ul li a:hover{
+  font-size: 20px;
+  border-bottom: 1px solid white;
+}
+.svg-inline--fa {vertical-align: -0.200em; }
+.rounded-social-buttons {text-align: center; }
+.rounded-social-buttons .social-button {display: inline-block; position: relative; cursor: pointer; width: 3.125rem; height: 3.125rem; border: 0.125rem solid transparent; padding: 0; text-decoration: none; text-align: center; color: #fefefe; font-size: 1.5625rem; font-weight: normal; line-height: 2em; border-radius: 1.6875rem; transition: all 0.5s ease; margin-right: 0.25rem; margin-bottom: 0.25rem; } .facebook:hover{box-shadow: 0 4px 8px 0 #3b5998, 0 6px 20px 0 #3b5998; } .twitter:hover{box-shadow: 0 4px 8px 0 #0084b4, 0 6px 20px 0 #0084b4; } .linkedin:hover{box-shadow: 0 4px 8px 0 #0077B5, 0 6px 20px 0 #0077B5; } .youtube:hover{box-shadow: 0 4px 8px 0 #cc0000, 0 6px 20px 0 #cc0000; } .instagram:hover{box-shadow: 0 4px 8px 0 #3b5998, 0 6px 20px 0 #3b5998; } .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {font-size: 30px; }
+.rounded-social-buttons .social-button.facebook {background: #3b5998; }
+.rounded-social-buttons .social-button.twitter {background: #55acee; }
+.rounded-social-buttons .social-button.linkedin {background: #007bb5; }
+.rounded-social-buttons .social-button.youtube {background: #bb0000; }
+.rounded-social-buttons .social-button.instagram {background: #125688; }
