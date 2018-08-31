@@ -1,8 +1,10 @@
 body, html {
-  height: 100%;
+  height: auto;
   margin: 0;
   font: 400 15px/1.8;
-  color:#777;
+  color:black;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .bgimg-1, .bgimg-2{
@@ -15,21 +17,25 @@ body, html {
 }
 .bgimg-1 {
   background-image: url("image3.jpg");
-  min-height: 100%;
+  min-height:100vh;
+  height:100vh;
+  background-size: cover;
 }
 .bgimg-2 {
   background-image: url("image1.jpg");
-  min-height: 100%;
+  min-height: 70vh;
+  height:70vh;
+    background-size: cover;
 }
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
 }
-.navbar{min-height:80px; background-color: white;background: transparent;}
+/*.navbar{min-height:80px; background-color: white;background: transparent;}
 .navbar ul{padding:0px;margin:0px;text-align:center;display:inline-block;vertical-align:top;}
 .navbar-brand{font-size:30px !important;color:black;font-family:PT sans Narrow;}
-@media(min-width: 766px){#menuOnCollapse ul{float: right; } }
+@media(min-width: 766px){#menuOnCollapse ul{float: right; } }*/
 a.effect-underline:after {content: ''; position: absolute; left: 0; display: inline-block; height: 1em; width: 100%; border-bottom: 2px solid; margin-top: 10px; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: scale(0,1); transform: scale(0,1); }
 a.effect-underline:hover:after {opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
 .mb-60 {
@@ -75,7 +81,7 @@ a.effect-underline:hover:after {opacity: 1; -webkit-transform: scale(1); transfo
     background: #fff none repeat scroll 0 0;
     border: 2px solid transparent;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    
+
 }
 .our-services-text p {
     margin-bottom: 0;
@@ -99,3 +105,93 @@ p {
 .rounded-social-buttons .social-button.linkedin {background: #007bb5; }
 .rounded-social-buttons .social-button.youtube {background: #bb0000; }
 .rounded-social-buttons .social-button.instagram {background: #125688; }
+
+.image {
+  display: block;
+  width:200px;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.navbar {
+  height: 90px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  z-index: 100;
+  max-width: 100%;
+  transition: background-color 1s ease 0s;
+}
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+  color: black;
+}
+.navbar-default .navbar-brand:hover {
+  color: black;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  margin: 10px 5px 5px 5px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: black;
+}
+.navbar-default .navbar-nav > li > a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #ddd;
+}
+.navbar-default .navbar-toggle {
+  border-color: black;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: black;
+  background-color: transparent;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: white;
+}
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #ccc;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
+.navbar.solid .navbar-brand {
+  color: black;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: black;
+  transition: color 1s ease 0s;
+}
