@@ -5,6 +5,7 @@ body, html {
   color:black;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: black;
 }
 
 .bgimg-1, .bgimg-2{
@@ -138,39 +139,40 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .navbar {
   height: 90px;
   background-color: transparent;
   border: none;
-  color: black;
+  color: white;
   z-index: 100;
   max-width: 100%;
   transition: background-color 1s ease 0s;
 }
 .navbar-default .navbar-brand {
   margin-top: 10px;
-  color: black;
+  color: white;
 }
 .navbar-default .navbar-brand:hover {
-  color: black;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a {
-  color: black;
+  color: white;
   margin: 10px 5px 5px 5px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-  color: black;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:visited {
-  color: #ddd;
+  color: white;
   text-decoration: none;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #ddd;
+  color: white;
 }
 .navbar-default .navbar-toggle {
-  border-color: black;
+  border-color: white;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 }
@@ -183,15 +185,57 @@ p {
 }
 /* Solid class attached on scroll past first section */
 .navbar.solid {
-  background-color: #ccc;
+  background-color: black;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
-  color: black;
+  color: white;
   transition: color 1s ease 0s;
 }
 .navbar.solid .navbar-nav > li > a {
-  color: black;
+  color: white;
   transition: color 1s ease 0s;
 }
+.c-carousel {
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+  background-color: rgba(0,0,0,.7);
+}
+.c-carousel__arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+  background-color: transparent;
+}
+.c-carousel__arrow--left {
+  left: 15px;
+}
+.c-carousel__arrow--right {
+  right: 15px;
+}
+.c-carousel__slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  will-change: transform;
+}
+.main-text
+{
+    position: absolute;
+    top:90px;
+    width: 100%;
+    color: #FFF;
+}
+@media(min-width: 768px){#features .col-sm-4{transition: transform 0.3s }}
+@media(min-width: 768px){#features .col-sm-4:hover{transform: scale(1.05); background-color:transparent;  box-shadow: 0 0 11px rgba(33,33,33,.2);  } }
+@media(min-width: 768px){#features .col-sm-3{transition: transform 0.3s }}
+@media(min-width: 768px){#features .col-sm-3:hover{transform: scale(1.05); background-color:transparent;  box-shadow: 0 0 11px rgba(33,33,33,.2);  } }
