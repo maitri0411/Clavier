@@ -143,3 +143,12 @@ window.onload = function () {
         selector: '.c-carousel'
     });
 };
+
+
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 8000,
+  });
+});
