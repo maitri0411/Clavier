@@ -152,3 +152,32 @@ $(document).ready(function() {
     interval: 8000,
   });
 });
+
+$('#myCarousel').carousel({
+   interval: 8000
+});
+
+/*var carouselContainer = $('.carousel');
+var slideInterval = 5000;
+
+	function toggleH(){
+		$('.toggleHeading').hide()
+		var caption = carouselContainer.find('.active').find('.toggleHeading').addClass('animated fadeInRight').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+			function (){
+			$(this).removeClass('animated fadeInRight')});
+	caption.slideToggle();
+	}
+
+	function toggleC(){
+		$('.toggleCaption').hide()
+		var caption = carouselContainer.find('.active').find('.toggleCaption').addClass('animated fadeInUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+			function (){
+			$(this).removeClass('animated fadeInUp')
+	});
+	caption.slideToggle();
+	}
+carouselContainer.carousel({
+interval: slideInterval, cycle: true, pause: "hover"})
+.on('slide.bs.carousel slid.bs.carousel', toggleH).trigger('slide.bs.carousel')
+.on('slide.bs.carousel slid.bs.carousel', toggleC).trigger('slide.bs.carousel');
+*/
