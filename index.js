@@ -181,3 +181,8 @@ interval: slideInterval, cycle: true, pause: "hover"})
 .on('slide.bs.carousel slid.bs.carousel', toggleH).trigger('slide.bs.carousel')
 .on('slide.bs.carousel slid.bs.carousel', toggleC).trigger('slide.bs.carousel');
 */
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});

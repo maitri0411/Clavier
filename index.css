@@ -8,13 +8,29 @@ body, html {
   background-color: black;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3{
+.bgimg-1, .bgimg-2, .bgimg-3,.background1{
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+.background1{
+  background-image: url("contact.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.background1 h2{
+  position: absolute;
+  top:60%;
+  left:10%;
+}
+.background1 h3{
+  position: absolute;
+  top:80%;
+  left:10%;
 }
 .bgimg-1 {
   background-image: url("image3.jpg");
@@ -106,12 +122,13 @@ p {
 }
 .svg-inline--fa {vertical-align: -0.200em; }
 .rounded-social-buttons {text-align: center; }
-.rounded-social-buttons .social-button {display: inline-block; position: relative; cursor: pointer; width: 3.125rem; height: 3.125rem; border: 0.125rem solid transparent; padding: 0; text-decoration: none; text-align: center; color: #fefefe; font-size: 1.5625rem; font-weight: normal; line-height: 2em; border-radius: 1.6875rem; transition: all 0.5s ease; margin-right: 0.25rem; margin-bottom: 0.25rem; } .facebook:hover{box-shadow: 0 4px 8px 0 #3b5998, 0 6px 20px 0 #3b5998; } .twitter:hover{box-shadow: 0 4px 8px 0 #0084b4, 0 6px 20px 0 #0084b4; } .linkedin:hover{box-shadow: 0 4px 8px 0 #0077B5, 0 6px 20px 0 #0077B5; } .youtube:hover{box-shadow: 0 4px 8px 0 #cc0000, 0 6px 20px 0 #cc0000; } .instagram:hover{box-shadow: 0 4px 8px 0 #3b5998, 0 6px 20px 0 #3b5998; } .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {font-size: 30px; }
+.rounded-social-buttons .social-button {display: inline-block; position: relative; cursor: pointer; width: 3.125rem; height: 3.125rem; border: 0.125rem solid transparent; padding: 0; text-decoration: none; text-align: center; color: #fefefe; font-size: 1.5625rem; font-weight: normal; line-height: 1em; border-radius: 1.3875rem; transition: all 0.5s ease; margin-right: 0.05rem; margin-bottom: 0.25rem; }
+ /*.twitter:hover{box-shadow: 0 4px 8px 0 #0084b4, 0 6px 20px 0 #0084b4; } .linkedin:hover{box-shadow: 0 4px 8px 0 #0077B5, 0 6px 20px 0 #0077B5; } .youtube:hover{box-shadow: 0 4px 8px 0 #cc0000, 0 6px 20px 0 #cc0000; } .instagram:hover{box-shadow: 0 4px 8px 0 #3b5998, 0 6px 20px 0 #3b5998; } .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {font-size: 30px; }
 .rounded-social-buttons .social-button.facebook {background: #3b5998; }
 .rounded-social-buttons .social-button.twitter {background: #55acee; }
 .rounded-social-buttons .social-button.linkedin {background: #007bb5; }
 .rounded-social-buttons .social-button.youtube {background: #bb0000; }
-.rounded-social-buttons .social-button.instagram {background: #125688; }
+.rounded-social-buttons .social-button.instagram {background: #125688; }*/
 
 .image {
   display: block;
@@ -630,3 +647,6 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     margin-bottom: 0;
 }
 .svg-inline--fa {vertical-align: -0.200em; }
+#panel{
+  display: none;
+}
