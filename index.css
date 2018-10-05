@@ -8,7 +8,7 @@ body, html {
   background-color: black;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3,.background1{
+.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -30,6 +30,17 @@ body, html {
 .background1 h3{
   position: absolute;
   top:80%;
+  left:10%;
+}
+.background2{
+  background-image: url("portfolio-background.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.background2 h1{
+  position: absolute;
+  top:60%;
   left:10%;
 }
 .bgimg-1 {
@@ -483,8 +494,18 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	overflow: hidden;
 }
 .box img{
-	height: 100%;
+	height:100%;
 	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item .box1{
+	height: 350px;
+	overflow: hidden;
+}
+.box1 img{
+	height:70%;
+	width: 70%;
 	object-fit:cover;
 	-o-object-fit:cover;
 }
