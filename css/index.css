@@ -64,8 +64,8 @@ body, html {
 }
 .bgimg-2 {
   background-image: url("images/image1.jpg");
-  min-height: 70vh;
-  height:70vh;
+  min-height: 120vh;
+  height:120vh;
     background-size: cover;
 }
 .bgimg-3{
