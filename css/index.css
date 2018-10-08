@@ -271,8 +271,8 @@ p {
 }
 @media(min-width: 768px){#features .col-sm-4{transition: transform 0.3s }}
 @media(min-width: 768px){#features .col-sm-4:hover{transform: scale(1.05); background-color:transparent;  box-shadow: 0 0 11px rgba(33,33,33,.2);  } }
-@media(min-width: 768px){#features .col-sm-3{transition: transform 0.3s }}
-@media(min-width: 768px){#features .col-sm-3:hover{transform: scale(1.05); background-color:transparent;  box-shadow: 0 0 11px rgba(33,33,33,.2);  } }
+@media(min-width: 768px){#features .col-sm-6{transition: transform 0.3s }}
+@media(min-width: 768px){#features .col-sm-6:hover{transform: scale(1.05); background-color:transparent;  box-shadow: 0 0 11px rgba(33,33,33,.2);  } }
 /* carousel */
 #quote-carousel
 {

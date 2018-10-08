@@ -86,27 +86,27 @@
         <li><a href="web.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\webdesign.png"  width="50px" height="50px" alt="Card image cap">
         <b>Web Design</b></li></a><br>
         <li><a href="development.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\development.png"  width="50px" height="50px" alt="Card image cap">
-        <b>Software Development</b></li><br>
+        <b>Software Development</a></b></li><br>
         <li><a href="graphic.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\graphic.png"  width="50px" height="50px" alt="Card image cap">
-        <b>Graphic Design</b></li>
+        <b>Graphic Design</a></b></li>
       </ul>
     </div>
     <div class="col-sm-4">
       <ul style="list-style-type:none;"><br>
         <li><a href="app.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\app.png"  width="50px" height="50px" alt="Card image cap">
-        <b>Mobile App Development</b></li></a><br>
+        <b>Mobile App Development</a></b></li></a><br>
         <li><a href="game.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\game.png"  width="50px" height="50px" alt="Card image cap">
-        <b>Game Development</b></li><br>
+        <b>Game Development</a></b></li><br>
         <li><a href="SEO.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\SEO.png"  width="50px" height="50px" alt="Card image cap">
-        <b>SEO and SMO</b></li>
+        <b>SEO and SMO</a></b></li>
       </ul>
     </div>
     <div class="col-sm-4">
       <ul style="list-style-type:none;"><br>
         <li><a href="ERP.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\ERP.png"  width="50px" height="50px" alt="Card image cap">
-        <b>ERP Solutions</b></li><br>
+        <b>ERP Solutions</a></b></li><br>
         <li><a href="consultancy.html" style="text-decoration:none;color:black;"><img class="card-img-top" src="images\support.png"  width="50px" height="50px" alt="Card image cap">
-        <b>Consultancy and Support</b></li>
+        <b>Consultancy and Support</a></b></li>
 </ul>
 </div>
 </div>
@@ -120,6 +120,19 @@
   <h3 style="color:white;font-size:40px;">We would love to hear from you!</h3>
 </div>
 
+<div id="message" style="background:white;padding-top:40px;">
+  <div class="container">
+    <h2>Send us an email!</h2><br>
+    <form>
+      <input type="text" placeholder=" Enter your Name" id="myName" name="Name" required/><br><br>
+      <input type="number" placeholder=" Enter contact no" id="myContact" required/><br><br>
+      <input type="email" placeholder=" Enter your email-id" id="mySubject" required/><br><br>
+      <textarea type="text" placeholder=" Write a message" id="myText" required/></textarea><br><br>
+      <input type="button" value="Send Message" onclick="sendMessage();">
+    </form>
+  </div>
+</div>
+
 <div id="contact" style="background:white;">
   <div class="container">
     <div class="row" style="padding-top:20px;">
@@ -129,7 +142,7 @@
           <h2>| Contact Details:</h2>
           <p>+91 816-0059970<br>+91-xxxxxxxxxx</p><br>
           <h2>| Email Us:</h2>
-          <p>itdesk.clab@gmail.com<br>clavier.labs@gmail.com</p>
+          <p>itdesk.clab@gmail.com<br>clavier.labs@gmail.com<br>clavier.labs@live.com</p>
       </div>
     </div><br><br><br>
   </div>
@@ -140,7 +153,7 @@
     <div class="col-sm-3">
     <a href="index.html" style="text-decoration:none;"><img src="images\logo1.png" width="80px" height="80px"></a><br><br>
     <p style="color:white;">B-101 Saptak Apartment<br>Opp. Pushparaj Tower<br>Judges Bungalow Road<br>Bodakdev,Ahmedabad-380054</p>
-    <p style="color:white;">+91 816-0059970<br>itdesk.clab@gmail.com</p>
+    <p style="color:white;">+91 816-0059970<br>clavier.labs@live.com</p>
     </div>
     <div class="col-sm-3">
   <h3 style="margin-left:35px;color:white;">Menu</h3><br>
@@ -187,6 +200,19 @@
 <script src="js\numScroller.js"></script>
 <script src="js\jquery.js"></script>
 <script src="js\jquery.easing.1.3.js"></script>
+<script>
+function sendMessage() {
+    var link = "mailto:maitribaria96@gamil.com"
+             + "?cc=myCCaddress@example.com"
+             + "&subject=" + escape(document.getElementById('mySubject').value)
+             + "&body=" + escape(document.getElementById('myName').value)
+             + escape(document.getElementById('myContact'). value )
+             + escape(document.getElementById('myText'). value )
 
+    ;
+
+    window.location.href = link;
+}
+</script>
 </body>
 </html>
