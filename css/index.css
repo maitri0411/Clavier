@@ -8,7 +8,7 @@ body, html {
   background-color: black;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2{
+.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -43,6 +43,19 @@ body, html {
   top:60%;
   left:10%;
 }
+
+.careerbackground{
+  background-image: url("images/careerbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.careerbackground h3{
+  position: absolute;
+  top:80%;
+  left:10%;
+}
+
 .bgimg-1 {
   background-image: url("images/image3.jpg");
   min-height:100vh;
