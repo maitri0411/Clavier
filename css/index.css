@@ -69,7 +69,7 @@ body, html {
     background-size: cover;
 }
 .bgimg-3{
-  background-image: url("images/background.jpg");
+  background-image: url("images/back.png");
   min-height:50vh;
   height:50vh;
   background-size: cover;
