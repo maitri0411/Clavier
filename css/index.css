@@ -8,7 +8,7 @@ body, html {
   background-color: black;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground{
+.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -54,6 +54,66 @@ body, html {
   position: absolute;
   top:80%;
   left:10%;
+}
+
+.webbackground{
+  background-image: url("images/webbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.webbackground h3{
+  position: absolute;
+  top:60%;
+  left:5%;
+}
+.gamebackground{
+  background-image: url("images/gamebackground.png");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+
+.appbackground{
+  background-image: url("images/appbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.appbackground h3{
+  position:absolute;
+  top:80%;
+  right:10%;
+}
+
+.supportbackground{
+  background-image: url("images/supportbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.supportbackground h3{
+  position:absolute;
+  top:30%;
+  left:10%;
+}
+.graphicbackground{
+  background-image: url("images/graphicbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.graphicbackground h3{
+  position:absolute;
+  top:50%;
+  right:10%;
+}
+
+.digitalbackground{
+  background-image: url("images/digitalbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
 }
 .erpbackground{
   background-image: url("images/erpbackground.jpg");
