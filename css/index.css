@@ -24,12 +24,12 @@ body, html {
 }
 .background1 h2{
   position: absolute;
-  top:60%;
+  top:50%;
   left:10%;
 }
 .background1 h3{
   position: absolute;
-  top:80%;
+  top:70%;
   left:10%;
 }
 .background2{
@@ -64,11 +64,11 @@ body, html {
 }
 .webbackground h3{
   position: absolute;
-  top:60%;
+  top:80%;
   left:5%;
 }
 .gamebackground{
-  background-image: url("images/gamebackground.png");
+  background-image: url("images/gamebackground.jpg");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
@@ -82,20 +82,20 @@ body, html {
 }
 .appbackground h3{
   position:absolute;
-  top:80%;
-  right:10%;
+  top:70%;
+  right:5%;
 }
 
 .supportbackground{
-  background-image: url("images/supportbackground.jpg");
+  background-image: url("images/supportbackground.png");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
 }
 .supportbackground h3{
   position:absolute;
-  top:30%;
-  left:10%;
+  top:85%;
+  left:5%;
 }
 .graphicbackground{
   background-image: url("images/graphicbackground.jpg");
@@ -532,9 +532,9 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 
 .caption-animate .item.active .carousel-caption {
   position: absolute;
-  top:70%;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  top:60%;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -598,8 +598,24 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 }
 
 #one a:after{
-  content:"Description";
+  content:"Orbit Agri Remedies is an informative website where the company is about pesticides and insecticides manufacturer.";
 }
+
+#two a:after{
+  content:"IELTS Writing is an Android based app and it is specially designed for the WRITING section which allows IELTS learner to study on their own in a simple, effective and convienient way anytime, anywhere.";
+ line-height:40px;
+}
+
+#three a:after{
+  content:"Business Card Reader is an Android Application. It takes the photo of the paper based visiting card through the camera of the android device and performs scanning of the photo.";
+  line-height:40px;
+}
+
+#four a:after{
+  content:"The application is based on the changed tax slabs by the government. The main feature of our application is to find the GST tax based on different tax slabs.";
+  line-height:40px;
+}
+
 .gal-item a:after{
 	/*content:"\e003";*/
   content:"Description";
@@ -612,8 +628,8 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	top: 3px;
 	bottom: 3px;
 	text-align: center;
-    line-height: 350px;
-    font-size: 30px;
+    line-height: 50px;
+    font-size: 20px;
     color: #fff;
     -webkit-transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
