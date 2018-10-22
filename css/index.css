@@ -9,7 +9,7 @@ body, html {
   font-family: Montserrat;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground{
+.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground, .aboutbackground{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -56,6 +56,24 @@ body, html {
   top:80%;
   left:10%;
 }
+
+.aboutbackground{
+  background-image: url("images/aboutbackground.jpg");
+  min-height: 100vh;
+  height:100vh;
+  background-size: cover;
+}
+.aboutbackground h2{
+  position: absolute;
+  top:60%;
+  left:10%;
+}
+.aboutbackground h3{
+  position: absolute;
+  top:75%;
+  left:10%;
+}
+
 
 .webbackground{
   background-image: url("images/webbackground.jpg");
