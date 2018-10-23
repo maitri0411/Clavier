@@ -18,19 +18,19 @@ body, html {
 
 }
 .background1{
-  background-image: url("images/contact.jpg");
+  background-image: url("images/contact.png");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
 }
 .background1 h2{
   position: absolute;
-  top:50%;
+  top:60%;
   left:10%;
 }
 .background1 h3{
   position: absolute;
-  top:70%;
+  top:80%;
   left:10%;
 }
 .background2{
@@ -58,7 +58,7 @@ body, html {
 }
 
 .aboutbackground{
-  background-image: url("images/aboutbackground.jpg");
+  background-image: url("images/aboutbackground1.png");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
@@ -87,14 +87,20 @@ body, html {
   left:5%;
 }
 .gamebackground{
-  background-image: url("images/gamebackground.jpg");
+  background-image: url("images/gamebackground1.jpg");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
 }
+.gamebackground h3{
+  position:absolute;
+  top:70%;
+  left:10%;
+}
+
 
 .appbackground{
-  background-image: url("images/appbackground.jpg");
+  background-image: url("images/appbackground.png");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
@@ -106,7 +112,7 @@ body, html {
 }
 
 .supportbackground{
-  background-image: url("images/supportbackground.png");
+  background-image: url("images/supportbackground1.jpg");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
@@ -129,7 +135,7 @@ body, html {
 }
 
 .digitalbackground{
-  background-image: url("images/digitalbackground.jpg");
+  background-image: url("images/digitalbackground1.jpg");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
@@ -830,10 +836,6 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
     margin: 0px 20px;
 }
 
-.slick-slide img {
-    width: 100%;
-}
-
 .slick-slider
 {
     position: relative;
@@ -1027,44 +1029,89 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   -webkit-animation-name: imgFade;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 24s;
+  -webkit-animation-duration: 42s;
 
   -moz-animation-name: imgFade;
   -moz-animation-timing-function: ease-in-out;
   -moz-animation-iteration-count: infinite;
-  -moz-animation-duration: 24s;
+  -moz-animation-duration: 42s;
 
   -o-animation-name: imgFade;
   -o-animation-timing-function: ease-in-out;
   -o-animation-iteration-count: infinite;
-  -o-animation-duration: 24s;
+  -o-animation-duration: 42s;
 
   animation-name: imgFade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 24s;
+  animation-duration: 42s;
 }
 #container img:nth-of-type(1) {
+  -webkit-animation-delay: 36s;
+  -moz-animation-delay:36s;
+  -o-animation-delay: 36s;
+  animation-delay: 36s;
+}
+#container img:nth-of-type(2) {
+  -webkit-animation-delay: 30s;
+  -moz-animation-delay:30s;
+  -o-animation-delay: 30s;
+  animation-delay: 30s;
+}
+#container img:nth-of-type(3) {
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay:24s;
+  -o-animation-delay: 24s;
+  animation-delay: 24s;
+}
+#container img:nth-of-type(4) {
   -webkit-animation-delay: 18s;
-  -moz-animation-delay:18s;
+  -moz-animation-delay: 18s;
   -o-animation-delay: 18s;
   animation-delay: 18s;
 }
-#container img:nth-of-type(2) {
+#container img:nth-of-type(5) {
   -webkit-animation-delay: 12s;
   -moz-animation-delay: 12s;
   -o-animation-delay: 12s;
   animation-delay: 12s;
 }
-#container img:nth-of-type(3) {
+#container img:nth-of-type(6) {
   -webkit-animation-delay: 6s;
   -moz-animation-delay: 6s;
   -o-animation-delay: 6s;
   animation-delay: 6s;
 }
-#container img:nth-of-type(4) {
+#container img:nth-of-type(7) {
   -webkit-animation-delay: 0s;
-  -moz-animation-delay: 0s;
+  -moz-animation-delay:0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+ #container .one h1 {
+  -webkit-animation-name: textFade;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 42s;
+
+  -moz-animation-name: textFade;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 42s;
+
+  -o-animation-name: textFade;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 42s;
+
+  animation-name: textFade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 42s;
+}
+#container .one h1:nth-of-type(7) {
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay:0s;
   -o-animation-delay: 0s;
   animation-delay: 0s;
 }
