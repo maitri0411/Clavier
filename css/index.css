@@ -613,8 +613,8 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	overflow: hidden;
 }
 .box1 img{
-	height:70%;
-	width: 70%;
+	height:100%;
+	width: 100%;
 	object-fit:cover;
 	-o-object-fit:cover;
 }
