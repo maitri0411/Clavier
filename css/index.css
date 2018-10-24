@@ -6,7 +6,6 @@ body, html {
   max-width: 100%;
   overflow-x: hidden;
   background-color: black;
-  font-family: Montserrat;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground, .aboutbackground{
@@ -18,7 +17,7 @@ body, html {
 
 }
 .background1{
-  background-image: url("images/contact.png");
+  background-image: url("images/contact.jpg");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
@@ -328,7 +327,7 @@ p {
 }
 /* Solid class attached on scroll past first section */
 .navbar.solid {
-  background-color: black;
+  background-color: #191919;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }
@@ -623,30 +622,30 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 }
 
 #one a:after{
-  font-family: Montserrat;
+  font-family: 'Open Sans';
   content:"Orbit Agri Remedies is an informative website where the company is about pesticides and insecticides manufacturer.";
 }
 
 #two a:after{
-  font-family: Montserrat;
+  font-family:'Open Sans';
   content:"IELTS Writing is an Android based app and it is specially designed for the WRITING section which allows IELTS learner to study on their own in a simple, effective and convienient way anytime, anywhere.";
  line-height:40px;
 }
 
 #three a:after{
-  font-family: Montserrat;
+  font-family: 'Open Sans';
   content:"Business Card Reader is an Android Application. It takes the photo of the paper based visiting card through the camera of the android device and performs scanning of the photo.";
   line-height:40px;
 }
 
 #four a:after{
-  font-family: Montserrat;
+  font-family: 'Open Sans';
   content:"The application is based on the changed tax slabs by the government. The main feature of our application is to find the GST tax based on different tax slabs.";
   line-height:40px;
 }
 
 #five a:after{
-  font-family: Montserrat;
+  font-family: 'Open Sans';
   content:"CookBook provides different types of tasty and delicious recipes which is mostly used by hostel students as well as house wives. Cooking to an ancient recipe was a privilege for the bachelors and hostel students.";
   line-height:40px;
 }
