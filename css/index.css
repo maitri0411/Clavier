@@ -400,12 +400,12 @@ p {
 /* Previous button  */
 #quote-carousel .carousel-control.left
 {
-  left: -12px;
+  left: -10px;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right
 {
-  right: -12px !important;
+  right: -10px !important;
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators
@@ -1114,3 +1114,16 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   -o-animation-delay: 0s;
   animation-delay: 0s;
 }
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+/*.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}*/
