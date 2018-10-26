@@ -40,7 +40,7 @@ body, html {
 }
 .background2 h1{
   position: absolute;
-  top:60%;
+  top:75%;
   left:10%;
 }
 
@@ -57,7 +57,7 @@ body, html {
 }
 
 .aboutbackground{
-  background-image: url("images/aboutbackground1.png");
+  background-image: url("images/aboutbackground.png");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
