@@ -93,7 +93,7 @@ body, html {
 }
 .gamebackground h3{
   position:absolute;
-  top:70%;
+  top:75%;
   left:10%;
 }
 
@@ -106,7 +106,7 @@ body, html {
 }
 .appbackground h3{
   position:absolute;
-  top:70%;
+  top:75%;
   right:5%;
 }
 
@@ -129,12 +129,12 @@ body, html {
 }
 .graphicbackground h3{
   position:absolute;
-  top:50%;
-  right:10%;
+  top:75%;
+  right:5%;
 }
 
 .digitalbackground{
-  background-image: url("images/digitalbackground1.jpg");
+  background-image: url("images/digitalbackground.jpg");
   min-height: 100vh;
   height:100vh;
   background-size: cover;
