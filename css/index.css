@@ -1110,3 +1110,31 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   margin-top: 15px;
   margin-bottom: 15px;
 }*/
+input[type=text],[type=number],[type=email]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #e54444;
+}
+textarea[type=text]{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #e54444;
+}
+input[type=button]{
+  background-color:white;
+  width:200px;
+  height:50px;
+  border-radius:8px;
+  border:2px solid #e54444;
+
+}
+input[type=button]:hover{
+  background-color: #e54444;
+  color:white;
+}
