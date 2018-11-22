@@ -339,6 +339,16 @@ p {
   color: white;
   transition: color 1s ease 0s;
 }
+
+@media(max-width:767px){
+  #navbar{
+  background-color: black;
+}
+.collapse ul li{
+  background-color:black;
+}
+}
+
 .c-carousel {
   width: 100%;
   position: relative;
