@@ -7,6 +7,20 @@ body, html {
   overflow-x: hidden;
   background-color: black;
 }
+@media(max-width:767px){
+  #topNavbar{
+    display:none;
+  }
+}
+@media(min-width:768px){
+  #topNavbar1{
+    display: none;
+  }
+}
+
+#topNavbar .navbar{height:30px; background-color: white;background: transparent;}
+#topNavbar .navbar ul{text-align:center;display:inline-block;vertical-align:top;}
+#topNavbar .navbar-brand{font-size:30px !important;color:black;font-family:PT Sans Narrow;}
 
 .bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground, .aboutbackground,.softwarebackground{
   position: relative;
@@ -157,6 +171,13 @@ body, html {
   height:100vh;
   background-size: cover;
 }
+@media(max-width:767px){
+  .softwarebackground{
+    min-height:80vh;
+    height:80vh;
+  }
+}
+
 .softwarebackground h3{
   position: absolute;
   top:80%;
@@ -354,12 +375,69 @@ p {
 
 @media(max-width:767px){
   #navbar{
-  background-color: black;
-}
-.collapse ul li{
-  background-color:black;
+  background-color: white;
+  color:black;
 }
 }
+@media(max-width:767px){
+
+  .collapse ul li a{
+  color:black;
+}
+}
+
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
 
 .c-carousel {
   width: 100%;
@@ -644,29 +722,34 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 }
 
 #one a:after{
+  padding-top: 70px;
   font-family: 'Open Sans';
   content:"Orbit Agri Remedies is an informative website where the company is about pesticides and insecticides manufacturer.";
 }
 
 #two a:after{
+  padding-top: 50px;
   font-family:'Open Sans';
   content:"IELTS Writing is an Android based app and it is specially designed for the WRITING section which allows IELTS learner to study on their own in a simple, effective and convienient way anytime, anywhere.";
  line-height:40px;
 }
 
 #three a:after{
+  padding-top: 50px;
   font-family: 'Open Sans';
   content:"Business Card Reader is an Android Application. It takes the photo of the paper based visiting card through the camera of the android device and performs scanning of the photo.";
   line-height:40px;
 }
 
 #four a:after{
+  padding-top: 50px;
   font-family: 'Open Sans';
   content:"The application is based on the changed tax slabs by the government. The main feature of our application is to find the GST tax based on different tax slabs.";
   line-height:40px;
 }
 
 #five a:after{
+  padding-top: 50px;
   font-family: 'Open Sans';
   content:"CookBook provides different types of tasty and delicious recipes which is mostly used by hostel students as well as house wives. Cooking to an ancient recipe was a privilege for the bachelors and hostel students.";
   line-height:40px;
@@ -967,17 +1050,23 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 #slideshow {
   position: relative;
   width: 100%;
-  height: 700px;
+  height:700px;
 }
 #slideshow img{
-  position: absolute;
+  position:absolute;
 }
 
  @media(max-width:766px){
    #slideshow{
      position:relative;
      width:100%;
-     height:500px;
+     height:400px;
+   }
+   #down-arrow{
+     position: absolute;
+     top:50%;
+     left:45%;
+     font-size:30px;
    }
  }
 #container {

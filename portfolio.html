@@ -20,68 +20,129 @@
 
 <body>
   <div>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+  <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top" id="topNavbar">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html"><img src="images\logo1.png" width="70px" height="70px" style="margin-top: -10px;"></a>
-        <a class="navbar-brand brandName" href="index.html" style="color: white;font-family:'Josefin Sans';font-size:30px; margin-left: -18px;margin-top:25px;"><b>Clavier Labs</b><br/>
-        <!--<small id="tagLine" style="font-size:13px;margin-left: 3px;">Accurate Design, Accurate Solution</small></a>-->
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right" style="margin-top:20px;">
-          <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="index.html"><b>Home</b></a></li>
-          <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a id="flip" class="effect-underline" href="#"><b>Services</b></a></li>
-          <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="portfolio.html"><b>Portfolio</b></a></li>
-          <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="career.html"><b>Career</b></a></li>
-          <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="about.html"><b>About</b></a></li>
-          <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="contact.html"><b>Contact Us</b></a></li>
+      	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+  			<span class="sr-only">Toggle navigation</span>
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  		</button>
+      <a class="navbar-brand" href="index.html"><img src="images\logo1.png" width="70px" height="70px" style="margin-top: -10px;margin-left:20px;"></a>
+      <a class="navbar-brand brandName" href="index.html" style="font-family: 'Josefin Sans' ;color: white;font-size:30px; margin-left: -15px;margin-top:27px;"><b>Clavier Labs</b><br/></a>
 
+  		<!--<a class="navbar-brand" href="#" style="color:white;">My Store</a>-->
+  	</div>
+
+  	<div class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" style="margin-top:25px;margin-right:10px;">
+            <li><a class="effect-underline" href="index.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Home</b></a></li>
+          <li class="dropdown mega-dropdown">
+    				<a href="#" class="dropdown-toggle effect-underline" data-toggle="dropdown" style="float:right;color:white;font-family:'Josefin Sans';font-size:20px;"><b>Services</b><span class="caret"></span></a>
+    				<ul class="dropdown-menu mega-dropdown-menu">
+              <div class="col-sm-4">
+          <ul style="list-style-type:none;"><br>
+            <li><a href="web.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\web.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Web Design</b></li></a><br>
+            <li><a href="development.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\software.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Software Development</a></b></li><br>
+            <li><a href="graphic.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\graphic.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Graphic Design</a></b></li>
+          </ul>
+          </div>
+          <div class="col-sm-4">
+          <ul style="list-style-type:none;"><br>
+            <li><a href="app.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\mobile-app.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Mobile App Development</a></b></li></a><br>
+            <li><a href="game.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\game.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Game Development</a></b></li><br>
+            <li><a href="SEO.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\digital-marketing.png"  width="30px" height="30px" alt="Card image cap">
+            <b>SEO and SMO</a></b></li>
+          </ul>
+          </div>
+          <div class="col-sm-4">
+          <ul style="list-style-type:none;"><br>
+            <li><a href="ERP.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\ERPicon.png"  width="30px" height="30px" alt="Card image cap">
+            <b>ERP Solutions</a></b></li><br>
+            <li><a href="consultancy.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\support.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Consultancy and Support</a></b></li>
+          </ul>
+          </div>
+    				</ul>
+    			</li>
+
+          <li><a class="effect-underline" href="career.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Career</b></a></li>
+          <li><a class="effect-underline" href="portfolio.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Portfolio</b></a></li>
+          <li><a class="effect-underline" href="about.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>About</b></a></li>
+          <li><a class="effect-underline" href="contact.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Contact Us</b></a></li>
 
         </ul>
-      </div>
-    </div>
-    <div id="panel" style="background:white;color:black;">
-      <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-    <ul style="list-style-type:none;"><br>
-      <li><a href="web.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\web.png"  width="30px" height="30px" alt="Card image cap">
-      <b>Web Design</b></li></a><br>
-      <li><a href="development.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\software.png"  width="30px" height="30px" alt="Card image cap">
-      <b>Software Development</a></b></li><br>
-      <li><a href="graphic.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\graphic.png"  width="30px" height="30px" alt="Card image cap">
-      <b>Graphic Design</a></b></li>
-    </ul>
-    </div>
-    <div class="col-sm-4">
-    <ul style="list-style-type:none;"><br>
-      <li><a href="app.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\mobile-app.png"  width="30px" height="30px" alt="Card image cap">
-      <b>Mobile App Development</a></b></li></a><br>
-      <li><a href="game.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\game.png"  width="30px" height="30px" alt="Card image cap">
-      <b>Game Development</a></b></li><br>
-      <li><a href="SEO.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\digital-marketing.png"  width="30px" height="30px" alt="Card image cap">
-      <b>SEO and SMO</a></b></li>
-    </ul>
-    </div>
-    <div class="col-sm-4">
-    <ul style="list-style-type:none;"><br>
-      <li><a href="ERP.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\ERPicon.png"  width="30px" height="30px" alt="Card image cap">
-      <b>ERP Solutions</a></b></li><br>
-      <li><a href="consultancy.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\support.png"  width="30px" height="30px" alt="Card image cap">
-      <b>Consultancy and Support</a></b></li>
-    </ul>
-    </div>
+  	</div><!-- /.nav-collapse -->
+    </nav>
   </div>
-</div>
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="topNavbar1">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar" style="border:1px solid white;"></span>
+        <span class="icon-bar" style="border:1px solid white;"></span>
+        <span class="icon-bar" style="border:1px solid white;"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images\logo1.png" width="70px" height="70px" style="margin-top: -10px;"></a>
+      <a class="navbar-brand brandName" href="index.html" style="font-family: 'Josefin Sans' ;color: white;font-size:30px; margin-left: -15px;margin-top:27px;">Clavier Labs<br/></a>
+
+      <!--<a class="navbar-brand" href="#" style="color:black;">My Store</a>-->
     </div>
 
-  </nav>
+    <div class="collapse navbar-collapse js-navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" style="margin-top:25px;">
+            <li><a class="effect-underline" href="index.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Home</b></a></li>
+          <li class="dropdown mega-dropdown">
+    				<a href="#" class="dropdown-toggle effect-underline" data-toggle="dropdown" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Services</b><span class="caret"></span></a>
+    				<ul class="dropdown-menu mega-dropdown-menu">
+              <div class="col-sm-4">
+          <ul style="list-style-type:none;"><br>
+            <li><a href="web.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\web.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Web Design</b></li></a><br>
+            <li><a href="development.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\software.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Software Development</a></b></li><br>
+            <li><a href="graphic.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\graphic.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Graphic Design</a></b></li>
+          </ul>
+          </div>
+          <div class="col-sm-4">
+          <ul style="list-style-type:none;"><br>
+            <li><a href="app.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\mobile-app.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Mobile App Development</a></b></li></a><br>
+            <li><a href="game.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\game.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Game Development</a></b></li><br>
+            <li><a href="SEO.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\digital-marketing.png"  width="30px" height="30px" alt="Card image cap">
+            <b>SEO and SMO</a></b></li>
+          </ul>
+          </div>
+          <div class="col-sm-4">
+          <ul style="list-style-type:none;"><br>
+            <li><a href="ERP.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\ERPicon.png"  width="30px" height="30px" alt="Card image cap">
+            <b>ERP Solutions</a></b></li><br>
+            <li><a href="consultancy.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\support.png"  width="30px" height="30px" alt="Card image cap">
+            <b>Consultancy and Support</a></b></li>
+          </ul>
+          </div>
+    				</ul>
+    			</li>
+
+          <li><a class="effect-underline" href="career.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Career</b></a></li>
+          <li><a class="effect-underline" href="portfolio.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Portfolio</b></a></li>
+          <li><a class="effect-underline" href="about.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>About</b></a></li>
+          <li><a class="effect-underline" href="contact.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Contact Us</b></a></li>
+
+        </ul>
+  	</div>
+
+    </nav>
+
 
   <div class="background2">
     <h1 style="color:white;font-size:50px;font-family:'Josefin Sans';">Have a look at our Work!</h1>
@@ -89,19 +150,19 @@
   </div>
 
 
-<div id="#portfolio" style="background:#cee2ff;"><br><br>
-<ul class="nav nav-tabs" style="padding-left:100px;">
+<div id="#portfolio" style="background:#cee2ff;max-width:100%;"><br><br>
+<ul class="nav nav-tabs" style="padding-left:100px;max-width:100%;">
     <li class="active" style="font-size:20px;width:150px;font-family:'Josefin Sans';"><a data-toggle="tab" href="#menu1">All</a></li>
     <li style="font-size:20px;width:150px;font-family:'Josefin Sans';"><a data-toggle="tab" href="#menu2">Mobile</a></li>
     <li style="font-size:20px;width:150px;font-family:'Josefin Sans';"><a data-toggle="tab" href="#menu3">Web</a></li>
   </ul>
 <br><br>
-<div class="tab-content">
+<div class="tab-content" style="max-width:100%;">
   <div id="menu1" class="tab-pane fade in active">
   <div class="container">
 	<div class="row">
 		<div class="row">
-            <div class="col-lg-4 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-sm-6">
                 <a class="" href="#" data-image-id="" data-toggle="modal"
                    data-target="#image-gallery1">
                     <center><img class="" style="height:400px;width:250px;border:4px solid white;border-radius:6px;"
@@ -109,7 +170,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-sm-6">
                 <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                                  data-target="#image-gallery2">
                     <center><img class=""
@@ -118,7 +179,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-sm-6">
                 <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                    data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                    data-target="#image-gallery3">
@@ -130,7 +191,7 @@
       </div><br><br><br>
 
           <div class="row">
-            <div class="col-lg-4 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-sm-6">
                 <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                    data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                    data-target="#image-gallery4">
@@ -139,12 +200,12 @@
                          alt="Another alt text"></center>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 col-xs-6">
+            <div class="col-lg-4 col-sm-6">
                 <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                    data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                    data-target="#image-gallery5">
                     <center><img class=""
-                         src="images\orbit white.png" style="height:250px;width:500px;border:4px solid white;border-radius:6px;"
+                         src="images\orbit white.png" style="height:250px;width:100%;border:4px solid white;border-radius:6px;"
                          alt="Another alt text"></center>
                 </a>
             </div>
@@ -359,7 +420,7 @@ We are providing ingredient wise food recipes so that user can easily make recip
 <div class="container">
 <div class="row">
   <div class="row">
-    <div class="col-lg-4 col-sm-6 col-xs-6">
+    <div class="col-lg-4 col-sm-6">
         <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
            data-image="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
            data-target="#img-gallery3">
@@ -370,7 +431,7 @@ We are providing ingredient wise food recipes so that user can easily make recip
     </div>
 
 
-          <div class="col-lg-4 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-sm-6">
               <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                  data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                  data-target="#img-gallery4">
@@ -380,7 +441,7 @@ We are providing ingredient wise food recipes so that user can easily make recip
               </a>
           </div>
 
-          <div class="col-lg-4 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-sm-6">
               <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                  data-image=""
                  data-target="#img-gallery1">
@@ -390,7 +451,7 @@ We are providing ingredient wise food recipes so that user can easily make recip
           </div>
     </div><br><br><br>
         <div class="row">
-          <div class="col-lg-4 col-sm-6 col-xs-6">
+          <div class="col-lg-4 col-sm-6">
               <a class="" href="#" data-image-id="" data-toggle="modal" data-title=""
                  data-image="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                  data-target="#img-gallery2">
@@ -584,7 +645,7 @@ We are providing ingredient wise food recipes so that user can easily make recip
              data-image="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
              data-target="#imagegallery5">
               <center><img class=""
-                   src="images\orbit white.png" style="height:250px;width:500px;border:4px solid white;border-radius:6px;"
+                   src="images\orbit white.png" style="height:250px;width:100%;border:4px solid white;border-radius:6px;"
                    alt="Another alt text"></center>
           </a>
       </div>

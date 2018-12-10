@@ -20,101 +20,130 @@
 
 <body>
   <div>
-    <!--<nav class="navbar navbar-default navbar-fixed-top" id="topNavbar" style="background-color: white;">
+    <div class="container">
 
-              <div class="container-fluid">
-
-                  <div class="navbar-header" style="height: 80px;background-color: white;">
-
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-right: 20px;">
-
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-
-                  </button>
-                  <a class="navbar-brand" href="index.html"><img src="logo.png" width="70px" height="70px" style="margin-top: -10px;"></a>
-                  <a class="navbar-brand brandName" href="index.html" style="color: black; margin-left: -18px;margin-top:12.5px;">Clavier Labs<br/>
-                  <small id="tagLine" style="font-size:13px;margin-left: 3px;">Accurate Design, Accurate Solution</small></a>
-                  </div>
-
-                  <div id="menuOnCollapse">
-                      <div class="collapse navbar-collapse" id="myNavbar" align="center" >
-                        <ul class="nav navbar-nav float-right" style=" margin-top: 30px;">
-                            <li><a href="#" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline" id="aboutUs"></style>Company</a></li>
-                            <li><a href="#" style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>Services</a></li>
-                            <li><a href="#"  style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>Pricing</a></li>
-                            <li><a href="#"  style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>Career</a></li>
-                            <li><a href="#"  style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>About</a></li>
-                            <li><a href="#"  style="color: black;font-family:Helvetica;font-size: 20px;" class="effect-underline"></style>Contact Us</a></li>
-
-                        </ul>
-                      </div>
-                  </div>
-              </div>
-    </nav>-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top" id="topNavbar">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="images\logo1.png" width="70px" height="70px" style="margin-top: -10px;"></a>
-          <a class="navbar-brand brandName" href="index.html" style="color: white;font-family:'Josefin Sans';font-size:30px; margin-left: -18px;margin-top:25px;"><b>Clavier Labs</b><br/>
-          <!--<small id="tagLine" style="font-size:13px;margin-left: 3px;">Accurate Design, Accurate Solution</small></a>-->
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right" style="margin-top:20px;">
-            <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="index.html"><b>Home</b></a></li>
-            <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a id="flip" class="effect-underline" href="#"><b>Services</b></a></li>
-            <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="portfolio.html"><b>Portfolio</b></a></li>
-            <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="career.html"><b>Career</b></a></li>
-            <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="about.html"><b>About</b></a></li>
-            <li style="color:black;font-family:'Josefin Sans';font-size:20px;"><a class="effect-underline" href="contact.html"><b>Contact Us</b></a></li>
+        	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+    			<span class="sr-only">Toggle navigation</span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    		</button>
+        <a class="navbar-brand" href="index.html"><img src="images\logo1.png" width="70px" height="70px" style="margin-top: -10px;margin-left:20px;"></a>
+        <a class="navbar-brand brandName" href="index.html" style="font-family: 'Josefin Sans' ;color: white;font-size:30px; margin-left: -15px;margin-top:27px;"><b>Clavier Labs</b><br/></a>
 
+    		<!--<a class="navbar-brand" href="#" style="color:white;">My Store</a>-->
+    	</div>
+
+    	<div class="collapse navbar-collapse js-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" style="margin-top:25px;margin-right:10px;">
+              <li><a class="effect-underline" href="index.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Home</b></a></li>
+            <li class="dropdown mega-dropdown">
+      				<a href="#" class="dropdown-toggle effect-underline" data-toggle="dropdown" style="float:right;color:white;font-family:'Josefin Sans';font-size:20px;"><b>Services</b><span class="caret"></span></a>
+      				<ul class="dropdown-menu mega-dropdown-menu">
+                <div class="col-sm-4">
+            <ul style="list-style-type:none;"><br>
+              <li><a href="web.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\web.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Web Design</b></li></a><br>
+              <li><a href="development.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\software.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Software Development</a></b></li><br>
+              <li><a href="graphic.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\graphic.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Graphic Design</a></b></li>
+            </ul>
+            </div>
+            <div class="col-sm-4">
+            <ul style="list-style-type:none;"><br>
+              <li><a href="app.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\mobile-app.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Mobile App Development</a></b></li></a><br>
+              <li><a href="game.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\game.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Game Development</a></b></li><br>
+              <li><a href="SEO.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\digital-marketing.png"  width="30px" height="30px" alt="Card image cap">
+              <b>SEO and SMO</a></b></li>
+            </ul>
+            </div>
+            <div class="col-sm-4">
+            <ul style="list-style-type:none;"><br>
+              <li><a href="ERP.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\ERPicon.png"  width="30px" height="30px" alt="Card image cap">
+              <b>ERP Solutions</a></b></li><br>
+              <li><a href="consultancy.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\support.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Consultancy and Support</a></b></li>
+            </ul>
+            </div>
+      				</ul>
+      			</li>
+
+            <li><a class="effect-underline" href="career.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Career</b></a></li>
+            <li><a class="effect-underline" href="portfolio.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Portfolio</b></a></li>
+            <li><a class="effect-underline" href="about.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>About</b></a></li>
+            <li><a class="effect-underline" href="contact.html" style="color:white;font-family:'Josefin Sans';font-size:20px;"><b>Contact Us</b></a></li>
 
           </ul>
-        </div>
-      </div>
-      <div id="panel" style="background:white;color:black;">
-        <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-      <ul style="list-style-type:none;"><br>
-        <li><a href="web.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\web.png"  width="30px" height="30px" alt="Card image cap">
-        <b>Web Design</b></li></a><br>
-        <li><a href="development.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\software.png"  width="30px" height="30px" alt="Card image cap">
-        <b>Software Development</a></b></li><br>
-        <li><a href="graphic.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\graphic.png"  width="30px" height="30px" alt="Card image cap">
-        <b>Graphic Design</a></b></li>
-      </ul>
-      </div>
-      <div class="col-sm-4">
-      <ul style="list-style-type:none;"><br>
-        <li><a href="app.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\mobile-app.png"  width="30px" height="30px" alt="Card image cap">
-        <b>Mobile App Development</a></b></li></a><br>
-        <li><a href="game.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\game.png"  width="30px" height="30px" alt="Card image cap">
-        <b>Game Development</a></b></li><br>
-        <li><a href="SEO.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\digital-marketing.png"  width="30px" height="30px" alt="Card image cap">
-        <b>SEO and SMO</a></b></li>
-      </ul>
-      </div>
-      <div class="col-sm-4">
-      <ul style="list-style-type:none;"><br>
-        <li><a href="ERP.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\ERPicon.png"  width="30px" height="30px" alt="Card image cap">
-        <b>ERP Solutions</a></b></li><br>
-        <li><a href="consultancy.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\support.png"  width="30px" height="30px" alt="Card image cap">
-        <b>Consultancy and Support</a></b></li>
-      </ul>
-      </div>
+    	</div><!-- /.nav-collapse -->
+      </nav>
     </div>
-  </div>
+
+      <nav class="navbar navbar-default navbar-fixed-top" id="topNavbar1">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar" style="border:1px solid white;"></span>
+          <span class="icon-bar" style="border:1px solid white;"></span>
+          <span class="icon-bar" style="border:1px solid white;"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images\logo1.png" width="70px" height="70px" style="margin-top: -10px;"></a>
+        <a class="navbar-brand brandName" href="index.html" style="font-family: 'Josefin Sans' ;color: white;font-size:30px; margin-left: -15px;margin-top:27px;">Clavier Labs<br/></a>
+
+        <!--<a class="navbar-brand" href="#" style="color:black;">My Store</a>-->
       </div>
 
-    </nav>
+      <div class="collapse navbar-collapse js-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" style="margin-top:25px;">
+              <li><a class="effect-underline" href="index.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Home</b></a></li>
+            <li class="dropdown mega-dropdown">
+      				<a href="#" class="dropdown-toggle effect-underline" data-toggle="dropdown" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Services</b><span class="caret"></span></a>
+      				<ul class="dropdown-menu mega-dropdown-menu">
+                <div class="col-sm-4">
+            <ul style="list-style-type:none;"><br>
+              <li><a href="web.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\web.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Web Design</b></li></a><br>
+              <li><a href="development.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\software.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Software Development</a></b></li><br>
+              <li><a href="graphic.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\graphic.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Graphic Design</a></b></li>
+            </ul>
+            </div>
+            <div class="col-sm-4">
+            <ul style="list-style-type:none;"><br>
+              <li><a href="app.html" style="font-family:Open Sans;text-decoration:none;color:black;"><img class="card-img-top" src="css\images\mobile-app.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Mobile App Development</a></b></li></a><br>
+              <li><a href="game.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\game.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Game Development</a></b></li><br>
+              <li><a href="SEO.html" style="text-decoration:none;font-family:Open Sans;color:black;"><img class="card-img-top" src="css\images\digital-marketing.png"  width="30px" height="30px" alt="Card image cap">
+              <b>SEO and SMO</a></b></li>
+            </ul>
+            </div>
+            <div class="col-sm-4">
+            <ul style="list-style-type:none;"><br>
+              <li><a href="ERP.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\ERPicon.png"  width="30px" height="30px" alt="Card image cap">
+              <b>ERP Solutions</a></b></li><br>
+              <li><a href="consultancy.html" style="text-decoration:none;color:black;font-family:'Open Sans';"><img class="card-img-top" src="css\images\support.png"  width="30px" height="30px" alt="Card image cap">
+              <b>Consultancy and Support</a></b></li>
+            </ul>
+            </div>
+      				</ul>
+      			</li>
+
+            <li><a class="effect-underline" href="career.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Career</b></a></li>
+            <li><a class="effect-underline" href="portfolio.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Portfolio</b></a></li>
+            <li><a class="effect-underline" href="about.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>About</b></a></li>
+            <li><a class="effect-underline" href="contact.html" style="color:black;font-family:'Josefin Sans';font-size:20px;"><b>Contact Us</b></a></li>
+
+          </ul>
+    	</div>
+
+      </nav>
+
 
 <div class="erpbackground">
   <h3 style="color:white;font-size:50px;font-family:'Josefin Sans';">ERP Solutions</h3>

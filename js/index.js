@@ -313,3 +313,16 @@ $(document)
       .end()
       .appendTo('#slideshow');
   }, 4000);
+
+  $(document).ready(function(){
+      $(".dropdown").checked(
+          function() {
+              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+              $(this).toggleClass('open');
+          },
+          function() {
+              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+              $(this).toggleClass('open');
+          }
+      );
+  });
