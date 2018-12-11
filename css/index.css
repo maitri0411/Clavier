@@ -38,12 +38,12 @@ body, html {
 }
 .background1 h2{
   position: absolute;
-  top:60%;
+  top:50%;
   left:10%;
 }
 .background1 h3{
   position: absolute;
-  top:80%;
+  top:75%;
   left:10%;
 }
 .background2{
@@ -66,14 +66,14 @@ body, html {
 }
 .careerbackground h3{
   position: absolute;
-  top:80%;
+  top:75%;
   left:10%;
 }
 
 .aboutbackground{
   background-image: url("images/aboutbackground.png");
   min-height: 100vh;
-  height:100vh;
+  height:70%;
   background-size: cover;
 }
 .aboutbackground h2{
@@ -86,8 +86,6 @@ body, html {
   top:75%;
   left:10%;
 }
-
-
 .webbackground{
   background-image: url("images/webbackground.jpg");
   min-height: 100vh;
@@ -132,7 +130,7 @@ body, html {
 }
 .supportbackground h3{
   position:absolute;
-  top:85%;
+  top:75%;
   left:5%;
 }
 .graphicbackground{
@@ -171,16 +169,10 @@ body, html {
   height:100vh;
   background-size: cover;
 }
-@media(max-width:767px){
-  .softwarebackground{
-    min-height:80vh;
-    height:80vh;
-  }
-}
 
 .softwarebackground h3{
   position: absolute;
-  top:80%;
+  top:70%;
   left:10%;
 }
 
