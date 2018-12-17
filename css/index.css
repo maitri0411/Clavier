@@ -10,16 +10,16 @@ body, html { height: auto; margin: 0; font: 400 15px/1.8; color:black; max-width
 .background1 h3{ position: absolute; top:75%; left:10%; }
 .background2{ background-image: url("images/portfolio-background.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
 .background2 h1{ position: absolute; top:75%; left:10%; }
-.careerbackground{ background-image: url("images/careerbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
+.careerbackground{ background-image: url("images/careerbackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
 .careerbackground h3{ position: absolute; top:75%; left:10%; }
-.aboutbackground{ background-image: url("images/aboutbackground.png"); min-height: 100vh; height:70%; background-size: cover; }
+.aboutbackground{ background-image: url("images/aboutbackground.jpg"); min-height: 100vh; height:70%; background-size: cover; }
 .aboutbackground h2{ position: absolute; top:60%; left:10%; }
 .aboutbackground h3{ position: absolute; top:75%; left:10%; }
 .webbackground{ background-image: url("images/webbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
 .webbackground h3{ position: absolute; top:80%; left:5%; }
 .gamebackground{ background-image: url("images/gamebackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
 .gamebackground h3{ position:absolute; top:75%; left:10%; }
-.appbackground{ background-image: url("images/appbackground.png"); min-height: 100vh; height:100vh; background-size: cover; }
+.appbackground{ background-image: url("images/appbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
 .appbackground h3{ position:absolute; top:75%; right:5%; }
 .supportbackground{ background-image: url("images/supportbackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
 .supportbackground h3{ position:absolute; top:75%; left:5%; }
@@ -33,7 +33,7 @@ body, html { height: auto; margin: 0; font: 400 15px/1.8; color:black; max-width
 .softwarebackground h3{ position: absolute; top:70%; left:10%; }
 .bgimg-1 { background-image: url("images/image3.jpg"); min-height:100vh; height:100vh; background-size: cover; }
 .bgimg-2 { background-image: url("images/image1.jpg"); min-height: 120vh; height:120vh; background-size: cover; }
-.bgimg-3{ background-image: url("images/back.png"); min-height:50vh; height:50vh; background-size: cover; }
+.bgimg-3{ background-image: url("images/back.jpg"); min-height:50vh; height:50vh; background-size: cover; }
 @media only screen and (max-device-width: 1024px) { .bgimg-1, .bgimg-2, .bgimg-3 { background-attachment: scroll; } }
 a.effect-underline:after {content: ''; position: absolute; left: 0; display: inline-block; height: 1em; width: 100%; border-bottom: 2px solid; margin-top: 10px; opacity: 0; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: scale(0,1); transform: scale(0,1); }
 a.effect-underline:hover:after {opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
