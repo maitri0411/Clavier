@@ -6,33 +6,44 @@ body, html { height: auto; margin: 0; font: 400 15px/1.8; color:black; max-width
 #topNavbar .navbar{height:30px; background-color: white;background: transparent;}
 #topNavbar .navbar ul{text-align:center;display:inline-block;vertical-align:top;}
 #topNavbar .navbar-brand{font-size:30px !important;color:black;font-family:PT Sans Narrow;}
-.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground, .aboutbackground,.softwarebackground{ position: relative; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
-.background1{ background-image: url("images/contact.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.background1 h2{ position: absolute; top:50%; left:10%; }
-.background1 h3{ position: absolute; top:75%; left:10%; }
-.background2{ background-image: url("images/portfolio-background.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.background2 h1{ position: absolute; top:75%; left:10%; }
-.careerbackground{ background-image: url("images/careerbackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.careerbackground h3{ position: absolute; top:75%; left:10%; }
-.aboutbackground{ background-image: url("images/aboutbackground.jpg"); min-height: 100vh; height:70%; background-size: cover; }
-.aboutbackground h2{ position: absolute; top:60%; left:10%; }
-.aboutbackground h3{ position: absolute; top:75%; left:10%; }
-.webbackground{ background-image: url("images/webbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.webbackground h3{ position: absolute; top:80%; left:5%; }
-.gamebackground{ background-image: url("images/gamebackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.gamebackground h3{ position:absolute; top:75%; left:10%; }
-.appbackground{ background-image: url("images/appbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.appbackground h3{ position:absolute; top:75%; right:5%; }
-.supportbackground{ background-image: url("images/supportbackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.supportbackground h3{ position:absolute; top:75%; left:5%; }
-.graphicbackground{ background-image: url("images/graphicbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.graphicbackground h3{ position:absolute; top:75%; right:5%; }
-.digitalbackground{ background-image: url("images/digitalbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.digitalbackground h3{ position: absolute; top:72%; left:10%; }
-.erpbackground{ background-image: url("images/erpbackground.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.erpbackground h3{ position: absolute; top:80%; left:10%; }
-.softwarebackground{ background-image: url("images/softwarebackground1.jpg"); min-height: 100vh; height:100vh; background-size: cover; }
-.softwarebackground h3{ position: absolute; top:70%; left:10%; }
+.bgimg-1, .bgimg-2, .bgimg-3,.background1,.background2,.careerbackground,.erpbackground,.appbackground,.supportbackground,.graphicbackground,.digitalbackground,.webbackground,.gamebackground, .aboutbackground,.softwarebackground{ position: relative; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: contain; }
+/*.background1{ background-image: url("images/contact.jpg"); min-height: 100vh; height:100vh; background-size: contain; }*/
+.background1 #heading1{ font-size:70px;position: absolute; top:55%; left:10%; }
+.background1 #heading2{ font-size:3em;position: absolute; top:70%; left:10%; }
+.background1 #scroll1 span{font-size:50px;}
+@media(max-width:768px){ .background1 #heading1{display:none;} .background1 #heading2{font-size:30px;position: absolute; top:65%; left:10%;} .background1 #scroll1 span{font-size:30px;} }
+.background2 h1{ position: absolute; font-size:50px;top:75%; left:10%; }
+.background2 #scroll2 span{font-size:50px;}
+@media(max-width:767px){ .background2 h1{font-size:30px;position: absolute;top:65%;left:10%;} .background2 #scroll2 span{font-size:30px;top:80%;} }
+.careerbackground h3{ font-size:50px;position: absolute; top:65%; left:10%; }
+.careerbackground #scroll3 span{font-size:50px;}
+@media(max-width:767px){ .careerbackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .careerbackground #scroll3 span{display:none;} }
+.aboutbackground #scroll4 span{ position:absolute;top:90%;left:50%;font-size:50px; }
+@media(max-width:767px){ .aboutbackground #scroll4 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.webbackground h3{ font-size:50px;position: absolute; top:80%; left:5%; }
+.webbackground #scroll5 span{position:absolute;top:92%;left:50%;font-size:50px;}
+@media(max-width:767px){ .webbackground h3{font-size:30px; position: absolute; top:65%; left:5%; } .webbackground #scroll5 span{position:absolute;top:82%;left:50%;font-size:30px;} }
+.gamebackground h3{ font-size:50px;position:absolute; top:75%; left:10%; }
+.gamebackground #scroll6 span{position:absolute;top:92%;left:50%;font-size:50px;}
+@media(max-width:767px){ .gamebackground h3{ font-size:30px;position:absolute; top:65%; left:10%; } .gamebackground #scroll6 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.appbackground h3{ font-size:50px;position:absolute; top:65%; right:5%; }
+.appbackground #scroll7 span{position:absolute;top:80%;left:50%;font-size:50px;}
+@media(max-width:767px){ .appbackground h3{ font-size:30px;position:absolute; top:65%; right:5%; } .appbackground #scroll7 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.supportbackground h3{ font-size:50px;position:absolute; top:75%; left:5%; }
+.supportbackground #scroll8 span{position:absolute;top:90%;left:50%;font-size:50px;}
+@media(max-width:767px){ .supportbackground h3{ font-size:30px;position:absolute; top:65%; left:5%; } .supportbackground #scroll8 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.graphicbackground h3{ font-size:50px;position:absolute; top:55%; right:5%; }
+.graphicbackground #scroll9 span{position:absolute;top:80%;left:50%;font-size:50px;}
+@media(max-width:767px){ .graphicbackground h3{ font-size:30px;position:absolute; top:65%; right:5%; } .graphicbackground #scroll9 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.digitalbackground h3{ font-size:50px;position: absolute; top:72%; left:10%; }
+.digitalbackground #scroll10 span{position:absolute;top:85%;left:50%;font-size:50px;}
+@media(max-width:767px){ .digitalbackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .digitalbackground #scroll10 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.erpbackground h3{ font-size:50px;position: absolute; top:80%; left:10%; }
+.erpbackground #scroll11 span{position:absolute;top:90%;left:50%;font-size:50px;}
+@media(max-width:767px){ .erpbackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .erpbackground #scroll11 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+.softwarebackground h3{ font-size:50px;position: absolute; top:80%; left:10%; }
+.softwarebackground #scroll12 span{position:absolute;top:90%;left:50%;font-size:50px;}
+@media(max-width:767px){ .softwarebackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .softwarebackground #scroll12 span{position:absolute;top:85%;left:50%;font-size:30px;} }
 .bgimg-1 { background-image: url("images/image3.jpg"); min-height:100vh; height:100vh; background-size: cover; }
 .bgimg-2 { background-image: url("images/image1.jpg"); min-height: 120vh; height:120vh; background-size: cover; }
 .bgimg-3{ background-image: url("images/back.jpg"); min-height:50vh; height:50vh; background-size: cover; }
