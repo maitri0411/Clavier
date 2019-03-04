@@ -14,7 +14,7 @@ body, html { height: auto; margin: 0; font: 400 15px/1.8; color:black; max-width
 @media(max-width:768px){ .background1 #heading1{display:none;} .background1 #heading2{font-size:30px;position: absolute; top:65%; left:10%;} .background1 #scroll1 span{font-size:30px;} }
 .background2 h1{ position: absolute; font-size:50px;top:75%; left:10%; }
 .background2 #scroll2 span{font-size:50px;}
-@media(max-width:767px){ .background2 h1{font-size:30px;position: absolute;top:65%;left:10%;} .background2 #scroll2 span{font-size:30px;top:80%;} }
+@media(max-width:767px){ .background2 h1{font-size:30px;position: absolute;top:65%;left:10%;} .background2 #scroll2 span{font-size:30px;top:70%;} }
 .careerbackground h3{ font-size:50px;position: absolute; top:65%; left:10%; }
 .careerbackground #scroll3 span{font-size:50px;}
 @media(max-width:767px){ .careerbackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .careerbackground #scroll3 span{display:none;} }
@@ -40,7 +40,7 @@ body, html { height: auto; margin: 0; font: 400 15px/1.8; color:black; max-width
 @media(max-width:767px){ .digitalbackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .digitalbackground #scroll10 span{position:absolute;top:85%;left:50%;font-size:30px;} }
 .erpbackground h3{ font-size:50px;position: absolute; top:80%; left:10%; }
 .erpbackground #scroll11 span{position:absolute;top:90%;left:50%;font-size:50px;}
-@media(max-width:767px){ .erpbackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .erpbackground #scroll11 span{position:absolute;top:85%;left:50%;font-size:30px;} }
+@media(max-width:767px){ .erpbackground h3{ font-size:30px;position: absolute; top:60%; left:10%; } .erpbackground #scroll11 span{position:absolute;top:80%;left:50%;font-size:30px;} }
 .softwarebackground h3{ font-size:50px;position: absolute; top:80%; left:10%; }
 .softwarebackground #scroll12 span{position:absolute;top:90%;left:50%;font-size:50px;}
 @media(max-width:767px){ .softwarebackground h3{ font-size:30px;position: absolute; top:65%; left:10%; } .softwarebackground #scroll12 span{position:absolute;top:85%;left:50%;font-size:30px;} }
